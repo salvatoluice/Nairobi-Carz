@@ -9,43 +9,43 @@ import portfolio from "../../assets/all-images/portfolio.png"
 
 const OUR__MEMBERS = [
   {
-    name: "John Smith",
-    experience: "2 yrs renting",
+    name: "Denzel Oceans",
+    experience: "The lead Manager",
     fbUrl: "https://www.facebook.com/salvato.luiz.9",
     instUrl: "https://www.instagram.com/salvato_luiz/",
     twitUrl: "https://twitter.com/LuiceSalvato",
     linkedinUrl: "https://www.linkedin.com/in/salvato-luis/",
-    imgUrl: ava01,
+    imgUrl: "https://images.unsplash.com/photo-1559172802-f5de3d1ed91d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTJ8fGFmcmljYW5zfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
   },
 
   {
     name: "Vova Bosibori",
-    experience: "5 yrs with us",
+    experience: "Head of sales department",
     fbUrl: "https://www.facebook.com/salvato.luiz.9",
     instUrl: "https://www.instagram.com/salvato_luiz/",
     twitUrl: "https://twitter.com/LuiceSalvato",
     linkedinUrl: "https://www.linkedin.com/in/salvato-luis/",
-    imgUrl: ava02,
+    imgUrl: "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGFmcmljYW5zfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
   },
 
   {
     name: "Salvato Luis",
-    experience: "2yrs with software Development",
+    experience: "Lead Front-end Developer",
     fbUrl: "https://www.facebook.com/salvato.luiz.9",
     instUrl: "https://www.instagram.com/salvato_luiz/",
     twitUrl: "https://twitter.com/LuiceSalvato",
     linkedinUrl: "https://www.linkedin.com/in/salvato-luis/",
-    imgUrl: ava03,
+    imgUrl: "https://images.unsplash.com/photo-1533108344127-a586d2b02479?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGFmcmljYW5zfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
   },
 
   {
     name: "Allan Smith",
-    experience: "10 cars rented!",
+    experience: "Planning & Development",
     fbUrl: "https://www.facebook.com/salvato.luiz.9",
     instUrl: "https://www.instagram.com/salvato_luiz/",
     twitUrl: "https://twitter.com/LuiceSalvato",
     linkedinUrl: "https://www.linkedin.com/in/salvato-luis/",
-    imgUrl: ava01,
+    imgUrl: "https://images.unsplash.com/photo-1470434767159-ac7bf1b43351?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDB8fGFmcmljYW5zfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
   },
 ];
 

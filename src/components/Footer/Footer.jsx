@@ -11,7 +11,7 @@ const quickLinks = [
   },
 
   {
-    path: "#",
+    path: "*",
     display: "Privacy Policy",
   },
 

@@ -74,7 +74,7 @@ We are fully licensed and insured, and we have received numerous awards for our 
           <Row>
             <Col lg="12" className="mb-5 text-center">
               <h6 className="section__subtitle">Experts</h6>
-              <h2 className="section__title">Our Members</h2>
+              <h2 className="section__title">Our Lead Team</h2>
             </Col>
             <OurMembers />
           </Row>
