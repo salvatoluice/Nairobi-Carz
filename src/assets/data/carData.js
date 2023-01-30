@@ -11,9 +11,9 @@ import img08 from "../all-images/cars-img/mercedes-offer.png";
 const carData = [
   {
     id: 1,
-    brand: "Tesla",
+    brand: "nissan",
     rating: 112,
-    carName: "Tesla Malibu",
+    carName: "Nissan Teana",
     imgUrl: img01,
     model: "Model 3",
     price: 5000,
@@ -75,12 +75,12 @@ const carData = [
 
   {
     id: 5,
-    brand: "Ferrari",
+    brand: "toyota",
     rating: 94,
-    carName: "Ferrari Camry",
+    carName: "Toyota Axio",
     imgUrl: img05,
     model: "Model-2022",
-    price: 4500,
+    price: 3500,
     speed: "20kmpl",
     gps: "GPS Navigation",
     seatType: "Heated seats",
@@ -107,12 +107,12 @@ const carData = [
 
   {
     id: 7,
-    brand: "Audi",
+    brand: "Toyota",
     rating: 82,
-    carName: "Audi Fiesta",
+    carName: "Toyota Premio XS",
     imgUrl: img07,
     model: "Model 3",
-    price: 5000,
+    price: 3500,
     speed: "20kmpl",
     gps: "GPS Navigation",
     seatType: "Heated seats",
@@ -123,12 +123,12 @@ const carData = [
 
   {
     id: 8,
-    brand: "Colorado",
+    brand: "Mercedes",
     rating: 52,
-    carName: "Rolls Royce Colorado",
+    carName: "C200 Mercedes Benz",
     imgUrl: img08,
     model: "Model 3",
-    price: 5000,
+    price: 4500,
     speed: "20kmpl",
     gps: "GPS Navigation",
     seatType: "Heated seats",
