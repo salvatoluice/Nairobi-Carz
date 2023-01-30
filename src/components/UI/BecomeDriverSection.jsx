@@ -3,6 +3,7 @@ import "../../styles/become-driver.css";
 import { Container, Row, Col } from "reactstrap";
 
 import driverImg from "../../assets/all-images/toyota-offer-2.png";
+import { Link } from "react-router-dom";
 
 const BecomeDriverSection = () => {
   return (
@@ -19,7 +20,7 @@ const BecomeDriverSection = () => {
             </h2>
 
             <button className="btn become__driver-btn mt-4">
-              Drive our Car
+              <Link style={{textDecoration: 'none'}} to='*'>Drive our Car</Link>
             </button>
           </Col>
         </Row>
