@@ -55,7 +55,7 @@ const BlogDetails = () => {
                 <div className="single__comment d-flex gap-3">
                   <img src={commentImg} alt="" />
                   <div className="comment__content">
-                    <h6 className=" fw-bold">David Visa</h6>
+                    <h6 className=" fw-bold">Ayande Vova</h6>
                     <p className="section__description mb-0">26 Jan, 2023</p>
                     <p className="section__description">
                       Nice Post ever, did some old school recaps dawg.
