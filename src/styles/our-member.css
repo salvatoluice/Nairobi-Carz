@@ -41,10 +41,13 @@
 .single__member-img {
   position: relative;
   cursor: pointer;
+
 }
 
 .single__member-img img {
   border-radius: 4px;
+  /* width: 305px;
+  height: 270px; */
 }
 
 .single__member-img:hover .single__member-social {

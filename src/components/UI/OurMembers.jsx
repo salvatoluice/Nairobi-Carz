@@ -5,45 +5,46 @@ import { Link } from "react-router-dom";
 import ava01 from "../../assets/all-images/ava-1.jpg";
 import ava02 from "../../assets/all-images/ava-2.jpg";
 import ava03 from "../../assets/all-images/ava-3.jpg";
+import portfolio from "../../assets/all-images/portfolio.png"
 
 const OUR__MEMBERS = [
   {
-    name: "Jhon Doe",
-    experience: "5 years of experience",
-    fbUrl: "#",
-    instUrl: "#",
-    twitUrl: "#",
-    linkedinUrl: "#",
+    name: "John Smith",
+    experience: "2 yrs renting",
+    fbUrl: "https://www.facebook.com/salvato.luiz.9",
+    instUrl: "https://www.instagram.com/salvato_luiz/",
+    twitUrl: "https://twitter.com/LuiceSalvato",
+    linkedinUrl: "https://www.linkedin.com/in/salvato-luis/",
     imgUrl: ava01,
   },
 
   {
-    name: "David Lisa",
-    experience: "5 years of experience",
-    fbUrl: "#",
-    instUrl: "#",
-    twitUrl: "#",
-    linkedinUrl: "#",
+    name: "Vova Bosibori",
+    experience: "5 yrs with us",
+    fbUrl: "https://www.facebook.com/salvato.luiz.9",
+    instUrl: "https://www.instagram.com/salvato_luiz/",
+    twitUrl: "https://twitter.com/LuiceSalvato",
+    linkedinUrl: "https://www.linkedin.com/in/salvato-luis/",
     imgUrl: ava02,
   },
 
   {
-    name: "Hilton King",
-    experience: "5 years of experience",
-    fbUrl: "#",
-    instUrl: "#",
-    twitUrl: "#",
-    linkedinUrl: "#",
+    name: "Salvato Luis",
+    experience: "2yrs with software Development",
+    fbUrl: "https://www.facebook.com/salvato.luiz.9",
+    instUrl: "https://www.instagram.com/salvato_luiz/",
+    twitUrl: "https://twitter.com/LuiceSalvato",
+    linkedinUrl: "https://www.linkedin.com/in/salvato-luis/",
     imgUrl: ava03,
   },
 
   {
-    name: "Jhon Doe",
-    experience: "5 years of experience",
-    fbUrl: "#",
-    instUrl: "#",
-    twitUrl: "#",
-    linkedinUrl: "#",
+    name: "Allan Smith",
+    experience: "10 cars rented!",
+    fbUrl: "https://www.facebook.com/salvato.luiz.9",
+    instUrl: "https://www.instagram.com/salvato_luiz/",
+    twitUrl: "https://twitter.com/LuiceSalvato",
+    linkedinUrl: "https://www.linkedin.com/in/salvato-luis/",
     imgUrl: ava01,
   },
 ];

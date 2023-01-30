@@ -57,8 +57,8 @@ We are fully licensed and insured, and we have received numerous awards for our 
                   </span>
 
                   <div>
-                    <h6 className="section__subtitle">Need Any Help?</h6>
-                    <h4>+00123456789</h4>
+                    <h6 className="section__subtitle">Any Questions?</h6>
+                    <h4>+254 1 13 794 219</h4>
                   </div>
                 </div>
               </div>
