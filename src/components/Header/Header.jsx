@@ -145,7 +145,7 @@ const Header = () => {
                 </span>
                 <div className="header__location-content">
                   <h4>24hr- Service</h4>
-                  <h6>to all clients</h6>
+                  <h6>at our stores</h6>
                 </div>
               </div>
             </Col>

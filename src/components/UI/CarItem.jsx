@@ -13,7 +13,7 @@ const CarItem = (props) => {
           <img src={imgUrl} alt="" className="w-100" />
         </div>
 
-        <div className="car__item-content mt-4">
+        <div className="car__item-content mt-4" style={{margin: 'auto', justifyContent: 'center', textAlign: 'center'}}>
           <h4 className="section__title text-center">{carName}</h4>
           <h6 className="rent__price text-center mt-">
             Ksh. {price}.00 <span>/ Day</span>
@@ -30,13 +30,8 @@ const CarItem = (props) => {
               <i class="ri-timer-flash-line"></i> {speed}
             </span>
           </div>
-
-          <button className=" w-50 car__item-btn car__btn-rent">
-            <Link to={`/cars/${carName}`}>Rent</Link>
-          </button>
-
           <button className=" w-50 car__item-btn car__btn-details">
-            <Link to={`/cars/${carName}`}>Details</Link>
+          <Link to={`/cars/${carName}`}>Reserve now</Link>
           </button>
         </div>
       </div>
