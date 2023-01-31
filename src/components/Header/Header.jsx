@@ -67,14 +67,11 @@ const Header = () => {
                 <span className="header__top__help">
                   <i class="ri-phone-fill"></i> +254-1-13-794-219
                 </span>
+                <span>info@nairobicarz.com</span>
               </div>
             </Col>
-
             <Col lg="6" md="6" sm="6">
               <div className="header__top__right d-flex align-items-center justify-content-end gap-3">
-                {/* <Link to="/login" className=" d-flex align-items-center gap-1">
-                  <i class="ri-login-circle-line"></i> Login
-                </Link> */}
 
                 {user ? <Link to='/dashboard'>Hi <span style={{color: '#f9a826'}}>{name}</span></Link> : <Link to='/login' className=" d-flex align-items-center gap-1"><i class="ri-login-circle-line"></i> Login</Link>}
 
@@ -87,63 +84,6 @@ const Header = () => {
         </Container>
       </div>
 
-      <div className="header__middle">
-        <Container>
-          <Row>
-            <Col lg="4" md="3" sm="4">
-              <div className="logo">
-                <h1>
-                  <Link to="/home" className=" d-flex align-items-center gap-2">
-                    <i class="ri-car-line"></i>
-                    <span>
-                        Nairobi~Carz
-                    </span>
-                  </Link>
-                </h1>
-              </div>
-            </Col>
-
-            <Col lg="3" md="3" sm="4">
-              <div className="header__location d-flex align-items-center gap-2">
-                <span>
-                  <i class="ri-earth-line"></i>
-                </span>
-                <div className="header__location-content">
-                  <h4>Nairobi</h4>
-                  <h6>Nairobi City, Kenya</h6>
-                </div>
-              </div>
-            </Col>
-
-            <Col lg="3" md="3" sm="4">
-              <div className="header__location d-flex align-items-center gap-2">
-                <span>
-                  <i class="ri-time-line"></i>
-                </span>
-                <div className="header__location-content">
-                  <h4>24hr- Service</h4>
-                  <h6>to all clients</h6>
-                </div>
-              </div>
-            </Col>
-
-            <Col
-              lg="2"
-              md="3"
-              sm="0"
-              className=" d-flex align-items-center justify-content-end "
-            >
-              <button className="header__btn btn ">
-                <Link to="/contact">
-                  <i class="ri-phone-line"></i> Request a call
-                </Link>
-              </button>
-            </Col>
-          </Row>
-        </Container>
-      </div>
-
-      {/* ========== main navigation =========== */}
 
       <div className="main__navbar">
         <Container>
@@ -168,15 +108,57 @@ const Header = () => {
               </div>
             </div>
 
-            <div className="nav__right">
-              <div className="search__box">
-                <input type="text" placeholder="Search" />
-                <span>
-                  <i class="ri-search-line"></i>
-                </span>
-              </div>
-            </div>
           </div>
+        </Container>
+      </div>
+
+      <div className="header__middle">
+        <Container>
+          <Row>
+            <Col lg="4" md="3" sm="4">
+              <div className="logo">
+                <h1>
+                  <Link to="/home" className=" d-flex align-items-center gap-2">
+                    <i class="ri-car-line"></i>
+                    <span>
+                        Nairobi~Carz
+                    </span>
+                  </Link>
+                </h1>
+              </div>
+            </Col>
+
+            <Col lg="3" md="3" sm="4">
+              <div className="header__location d-flex align-items-center gap-2">
+                <button className="header__btn btn ">
+                <Link to="/contact">
+                  Talk to us now
+                </Link>
+              </button>
+              </div>
+            </Col>
+
+            <Col lg="3" md="3" sm="4">
+              <div className="header__location d-flex align-items-center gap-2">
+                <span>
+                  <i class="ri-time-line"></i>
+                </span>
+                <div className="header__location-content">
+                  <h4>24hr- Service</h4>
+                  <h6>to all clients</h6>
+                </div>
+              </div>
+            </Col>
+
+            <Col
+              lg="2"
+              md="3"
+              sm="0"
+              className=" d-flex align-items-center justify-content-end "
+            >
+              
+            </Col>
+          </Row>
         </Container>
       </div>
     </header>

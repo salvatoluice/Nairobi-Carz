@@ -53,7 +53,7 @@ We are fully licensed and insured, and we have received numerous awards for our 
 
           <Col lg="6" md="6">
             <div className="about__img">
-              <img src={aboutImg} alt="" className="w-100" />
+              <img src="https://imgs.search.brave.com/wH8A2PE_-DgSaoSSjTYiDPKfYsbLbXkEIATwMMSG6Qc/rs:fit:1095:225:1/g:ce/aHR0cHM6Ly90c2Uy/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5K/dVVKb19qQTItWDJ3/M1FDOVd3V2VnSGFE/TiZwaWQ9QXBp" alt="" className="w-100" />
             </div>
           </Col>
         </Row>

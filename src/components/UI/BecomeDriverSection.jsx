@@ -11,7 +11,7 @@ const BecomeDriverSection = () => {
       <Container>
         <Row>
           <Col lg="6" md="6" sm="12" className="become__driver-img">
-            <img src={driverImg} alt="" className="w-100" />
+            <img src="https://imgs.search.brave.com/ThDgDRvqK7S3WjskxHkUyRZTF5f0sTg3Cxh4BoMlSgk/rs:fit:632:225:1/g:ce/aHR0cHM6Ly90c2Uz/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC4x/WmpzZHhrOWlMd0t2/WlpPdGpWd2tRSGFG/aiZwaWQ9QXBp" alt="" className="w-100" />
           </Col>
 
           <Col lg="6" md="6" sm="12">
