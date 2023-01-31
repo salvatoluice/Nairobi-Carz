@@ -16,35 +16,35 @@ const BookingForm = () => {
       </FormGroup>
 
       <FormGroup className="booking__form d-inline-block me-4 mb-4">
-        <input type="email" placeholder="Email" />
+        <input type="email" placeholder="Email Address" />
       </FormGroup>
       <FormGroup className="booking__form d-inline-block ms-1 mb-4">
-        <input type="number" placeholder="Phone Number" />
+        <input type="number" placeholder="Phone Number(+254...)" />
       </FormGroup>
 
       <FormGroup className="booking__form d-inline-block me-4 mb-4">
-        <input type="text" placeholder="From Address" />
+        <input type="text" placeholder="From..." />
       </FormGroup>
       <FormGroup className="booking__form d-inline-block ms-1 mb-4">
-        <input type="text" placeholder="To Address" />
+        <input type="text" placeholder="To..." />
       </FormGroup>
 
       <FormGroup className="booking__form d-inline-block me-4 mb-4">
         <select name="" id="">
           <option value="1 person">1 Person</option>
-          <option value="2 person">2 Person</option>
-          <option value="3 person">3 Person</option>
-          <option value="4 person">4 Person</option>
-          <option value="5+ person">5+ Person</option>
+          <option value="2 person">2 Persons</option>
+          <option value="3 person">3 Persons</option>
+          <option value="4 person">4 Persons</option>
+          <option value="5+ person">5+ Persons</option>
         </select>
       </FormGroup>
       <FormGroup className="booking__form d-inline-block ms-1 mb-4">
         <select name="" id="">
           <option value="1 luggage">1 luggage</option>
-          <option value="2 luggage">2 luggage</option>
-          <option value="3 luggage">3 luggage</option>
-          <option value="4 luggage">4 luggage</option>
-          <option value="5+ luggage">5+ luggage</option>
+          <option value="2 luggage">2 luggages</option>
+          <option value="3 luggage">3 luggages</option>
+          <option value="4 luggage">4 luggages</option>
+          <option value="5+ luggage">5+ luggages</option>
         </select>
       </FormGroup>
 
@@ -54,7 +54,7 @@ const BookingForm = () => {
       <FormGroup className="booking__form d-inline-block ms-1 mb-4">
         <input
           type="time"
-          placeholder="Journey Time"
+          placeholder="Time of Journey"
           className="time__picker"
         />
       </FormGroup>
@@ -64,7 +64,7 @@ const BookingForm = () => {
           rows={5}
           type="textarea"
           className="textarea"
-          placeholder="Write"
+          placeholder="Write More Information here..."
         ></textarea>
       </FormGroup>
     </Form>
