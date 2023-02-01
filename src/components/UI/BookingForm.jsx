@@ -1,10 +1,14 @@
 import React from "react";
 import "../../styles/booking-form.css";
 import { Form, FormGroup } from "reactstrap";
+import { useNavigate } from "react-router-dom";
+
 
 const BookingForm = () => {
+  const navigate = useNavigate()
   const submitHandler = (event) => {
     event.preventDefault();
+    navigate('*')
   };
   return (
     <Form onSubmit={submitHandler}>

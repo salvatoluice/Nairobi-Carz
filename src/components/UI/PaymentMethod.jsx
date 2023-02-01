@@ -1,10 +1,17 @@
 import React from "react";
+import { Link, useNavigate } from "react-router-dom";
 
 import masterCard from "../../assets/all-images/master-card.jpg";
 import paypal from "../../assets/all-images/paypal.jpg";
 import "../../styles/payment-method.css";
 
 const PaymentMethod = () => {
+  const navigate = useNavigate()
+
+  const handleSubmit = () => {
+    navigate('*');
+  }
+
   return (
     <>
       <div className="payment">
@@ -35,7 +42,7 @@ const PaymentMethod = () => {
         <img src={paypal} alt="" />
       </div>
       <div className="payment text-end mt-5">
-        <button>Reserve Now</button>
+        <button><Link to="*" style={{textDecoration: 'none', color: '#fff'}}>Reserve Now</Link></button>
       </div>
     </>
   );

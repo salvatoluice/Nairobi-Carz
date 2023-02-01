@@ -1,10 +1,31 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Col } from "reactstrap";
 import { Link } from "react-router-dom";
 import "../../styles/car-item.css";
 
 const CarItem = (props) => {
+  // const [cars, setCars] = useState([]);
   const { imgUrl, model, carName, automatic, speed, price } = props.item;
+
+  const [cars, setCars] = useState([]);
+
+  useEffect(() => {
+    const fetchCars = async () => {
+      try {
+        const response = await fetch('http://localhost:3000/cars');
+        const data = await response.json();
+        setCars(data);
+      } catch (error) {
+        console.error(error);
+      }
+    };
+
+    fetchCars();
+  }, []);
+
+  useEffect(() => {
+    console.log(cars);
+  }, [cars]);
 
   return (
     <Col lg="4" md="4" sm="6" className="mb-5">
